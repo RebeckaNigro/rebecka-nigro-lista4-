@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados e Cidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Estados e Cidades</h2>
+
+    <p>Estado:</p>
+    <select id="estado" onchange="buscarCidades()">
+        <option value="">Selecione um estado</option>
+    </select>
+
+    <p>Cidade:</p>
+    <select id="cidade" onchange="mostrarCidade()">
+        <option value="">Selecione uma cidade</option>
+    </select>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
